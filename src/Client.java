@@ -8,6 +8,10 @@ import java.nio.channels.CompletionHandler;
 import java.nio.charset.Charset;
 import java.util.concurrent.Future;
 /*from  ww w .j  a  va2 s.  co m*/
+
+/**
+ * http://www.java2s.com/Tutorials/Java/Java_Network/0080__Java_Network_Asynchronous_Socket_Channels.htm
+ */
 public class Client {
     public static void main(String[] args) throws Exception {
         AsynchronousSocketChannel channel = AsynchronousSocketChannel.open();

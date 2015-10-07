@@ -6,6 +6,10 @@ import java.nio.channels.AsynchronousServerSocketChannel;
 import java.nio.channels.AsynchronousSocketChannel;
 import java.nio.channels.CompletionHandler;
 import java.nio.charset.Charset;
+
+/**
+ * http://www.java2s.com/Tutorials/Java/Java_Network/0080__Java_Network_Asynchronous_Socket_Channels.htm
+ */
 public class Server {
     public static void main(String[] args) throws Exception {
         AsynchronousServerSocketChannel server = AsynchronousServerSocketChannel

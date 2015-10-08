@@ -13,6 +13,10 @@ public class Commander implements Runnable {
 
     @Override
     public void run() {
-        log.info(Thread.currentThread().getName() + "  " + command );
+        int sum = 0;
+        for(int i = 0; i < 100; i++) {
+            sum += Math.random() * i;
+        }
+        log.info(Thread.currentThread().getName() + "  " + command + " " + sum );
     }
 }
